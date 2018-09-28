@@ -7,7 +7,7 @@ body {
     background-image: url("../img/backgroundimage.jpg");
     background-attachment: fixed;
     background-size: 100%;
-    font-family: 'Black Ops One', cursive;
+    font-family: 'Sedgwick Ave', cursive;
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
     margin: 10px auto;
     padding: 10px;
     background-color: #b3b4b9;
-    border: 3px #565bbd solid;
+    border: 3px #4f4f4f solid;
     border-radius: 8px;
     opacity: 0.88;
 }
@@ -79,12 +79,14 @@ h3 {
 .btn,
 .btnStop {
     background-color: #329c8c;
-    border: 2px #959595 solid;
-    border-radius: 5px;
+    border: 2px #4f4f4f solid;
+    border-radius: 6px;
     cursor: pointer;
     padding: 4px;
     font-size: 26px;
+    font-family: 'Sedgwick Ave', cursive;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .btnStop {
