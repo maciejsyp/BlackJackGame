@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Oczko</title>
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Gra w "oczko"</h1>
+
+        <div class="mainScore">
+            <h2>Wynik gracz nr 1</h2>
+            <output id="playerOneMainScore" class="output">0</output>
+            <h2>Wynik gracz nr 2</h2>
+            <output id="playerTwoMainScore" class="output">0</output>
+        </div>
+
+        <div class="players">
+            <div class="playerOne">
+                <h3>Gracz nr 1</h3>
+                <button id="getCardPlayerOne" class="btn">Weź kartę</button>
+                <button id="stopGettingCardsPlayerOne" class="btnStop">Stop!</button>
+                <output id="showSumPlayerOne" class="output">0</output>
+            </div>
+            <div class="checkButton">
+                    <output id="currentCard" class="output"></output>
+                    <button id="checkResult" class="btn">Sprawdź wynik!</button>
+            </div>
+
+            <div class="playerTwo">
+                <h3>Gracz nr 2</h3>
+                <button id="getCardPlayerTwo" class="btn">Weź kartę</button>
+                <button id="stopGettingCardsPlayerTwo" class="btnStop">Stop!</button>
+                <output id="showSumPlayerTwo" class="output">0</output>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
